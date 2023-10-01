@@ -24,6 +24,9 @@ channel = os.getenv('CHANNEL')
 telegram_token = os.getenv('TELEGRAM_TOKEN')
 admins_str = os.getenv("ADMINS")
 admins = tuple(admins_str.split(','))
+print(discord_token)
+print(admins)
+print(admins_str)
 
 bot = commands.Bot()
 
