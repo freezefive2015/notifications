@@ -23,10 +23,9 @@ discord_token = os.getenv('DISCORD_TOKEN')
 channel = os.getenv('CHANNEL')
 telegram_token = os.getenv('TELEGRAM_TOKEN')
 print(discord_token)
-admins_str = os.getenv("ADMINS")
-admins = tuple(admins_str.split(','))
-print(admins)
-print(admins_str)
+# admins_str = os.getenv("ADMINS")
+# admins = tuple(admins_str.split(','))
+admins = (396731096735285258, 11111)
 
 bot = commands.Bot()
 
